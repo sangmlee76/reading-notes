@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Table of Contents
+- Summary
+- Growth Mindset
+- Links
+ 
+## Summary
+Hello. This is Sang's git reading notes page. It will be used for my Code Fellows projects.
 
-You can use the [editor on GitHub](https://github.com/sangmlee76/reading-notes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Growth Mindset
+As Lao Tzu said:
+>The journey of a thousand miles begins with one step.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In my opinion, growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertainties). It allows one to think about how to overcome difficult and uncertain tasks across different domains (e.g. learning, relationships, etc.). Specifically, it teaches that by using the framework, one is able to stay more open minded and have a long-term view in personal growth and change in order to overcome a new, difficult challenge/task.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+I plan to use the following reminders (using a daily journal):
 ```
+1. Daily goal: framed as time spent to tackle the challenge, not necessarily 'what got done'.
+2. Daily reflection: review progress made each day
+3. Make it fun: use games to focus, challenge, and celebrate
+```
+Additional external links on growth mindset:
+[What Having a “Growth Mindset” Actually Means](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means)
+[How Praise Became a Consolation Prize](https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/)
+[Carol Dweck Revisits the 'Growth Mindset'](https://www.edweek.org/ew/articles/2015/09/23/carol-dweck-revisits-the-growth-mindset.html)
+[Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Links
+Markdown (Links to an external site.)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sangmlee76/reading-notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
