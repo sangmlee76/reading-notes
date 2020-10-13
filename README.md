@@ -3,10 +3,10 @@
 2. Growth Mindset
 3. Links
 ************************
-## Summary
+## 1. Summary
 Hello. This is Sang's git reading-notes page. 
 ************************
-## Growth Mindset
+## 2. Growth Mindset
 As Lao Tzu said:
 >*The journey of a thousand miles begins with one step.*
 
@@ -25,7 +25,7 @@ Growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertai
 * [Carol Dweck Revisits the 'Growth Mindset'](https://www.edweek.org/ew/articles/2015/09/23/carol-dweck-revisits-the-growth-mindset.html)
 * [Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
 *************************
-## Links
+## 3. Links
 + Markdown (Links to an external site.)
 + [Command Line](https://github.com/sangmlee76/reading-notes/blob/main/commandline.md)
 
