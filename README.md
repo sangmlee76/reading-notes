@@ -4,11 +4,11 @@
 - Links
  
 ## Summary
-Hello. This is Sang's git reading notes page. It will be used for my Code Fellows projects.
+Hello. This is Sang's git reading-notes page. 
 
 ## Growth Mindset
 As Lao Tzu said:
->The journey of a thousand miles begins with one step.
+>*The journey of a thousand miles begins with one step.*
 
 In my opinion, growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertainties). It allows one to think about how to overcome difficult and uncertain tasks across different domains (e.g. learning, relationships, etc.). Specifically, it teaches that by using the framework, one is able to stay more open minded and have a long-term view in personal growth and change in order to overcome a new, difficult challenge/task.
 
