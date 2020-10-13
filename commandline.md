@@ -24,6 +24,8 @@ Source: [Choosing a text editor](https://codefellows.github.io/code-102-guide/cu
 #### Text editors vs IDEs
 An IDE (Integrated Development Environment) is a suite of different software all coming together. An IDE is a text editor, a file manager, a compiler, and a debugger all in one software package. Sample list of [Best Integrated Development Environments](https://www.g2.com/categories/integrated-development-environments-ide).
 
+**********
+
 ## Command Line (CL)
 The **command line** is the prompt on a terminal to execute commands.
 
