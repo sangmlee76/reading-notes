@@ -1,4 +1,4 @@
-## Table of Contents
+## 0. Table of Contents
 1. Summary
 2. Growth Mindset
 3. Links
