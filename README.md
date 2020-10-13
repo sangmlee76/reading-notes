@@ -5,7 +5,7 @@
 ************************
 ## Summary
 Hello. This is Sang's git reading-notes page. 
-
+************************
 ## Growth Mindset
 As Lao Tzu said:
 >*The journey of a thousand miles begins with one step.*
