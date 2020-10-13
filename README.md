@@ -14,9 +14,9 @@ In my opinion, growth mindset is a frame of tackling new challenges (e.g. unknow
 
 I plan to use the following reminders (using a daily journal):
 ```
-1. Daily goal: framed as time spent to tackle the challenge, not necessarily 'what got done'.
-2. Daily reflection: review progress made each day
-3. Make it fun: use games to focus, challenge, and celebrate
+1. Daily goal: framed as time spent to tackle the challenge, not 'what got done/solved'.
+2. Daily reflection: review progress made each day (double down on things that worked and modify things that didn't)
+3. Make it fun: think of it as a game to focus, challenge, and celebrate
 ```
 Additional external links on growth mindset:
 [What Having a “Growth Mindset” Actually Means](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means)
