@@ -12,12 +12,12 @@ A **text editor** is a piece of software that you download and install on your c
 **Windows:** Notepad
 
 #### Third party text editors
-- [Notepad++]
+- [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [BB Edit (formerly Text Wrangler)](https://www.barebones.com/products/textwrangler/)
-- [Visual Studio Code (VS Code)]
-- [Atom]
-- Brackets]
-- [Sublime Text]
+- [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
+- [Atom](https://atom.io/)
+- [Brackets](http://brackets.io/)
+- [Sublime Text](https://www.sublimetext.com/)
 
 #### Text editors vs IDEs
 An IDE (Integrated Development Environment) is a suite of different software all coming together. An IDE is a text editor, a file manager, a compiler, and a debugger all in one software package. Sample list of [Best Integrated Development Environments](https://www.g2.com/categories/integrated-development-environments-ide).
