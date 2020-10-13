@@ -18,7 +18,7 @@ Below are some commonly used syntax for markdowns. There are other reference lin
 
 `>` : block quotes
 
-`\`code`\` (backquote without the backslash) : inline code
+`\``\` (backquote without the backslash) : inline code
 
 `****** or ------ or _______` : horizontal rule
 
