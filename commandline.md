@@ -1,6 +1,8 @@
 ## Choosing a text editor
 A **text editor** is a piece of software that you download and install on your computer, or you access online through your web browser, that allows you to write and manage text, especially the text that you write to build a web site.
 
+Source: [Choosing a text editor](https://codefellows.github.io/code-102-guide/curriculum/class-02/Choosing-A-Text-Editor--The-Older-Coder.pdf)
+
 #### Key features of a text editor, which varies by each developer, identified in the article are as follows:
 - **Code completion:** It allows you to start typing, and the code completion feature will display possible suggestions based on what you originally typed.
 - **Syntax highlighting:** By using different colored texts based on what the text represents. For example, attributes are a different color than elements. This aids in debugging code by making it easier to read.
@@ -8,8 +10,8 @@ A **text editor** is a piece of software that you download and install on your c
 - **Healthy selection of extensions:** Extensions are like plugins for your text editor.
 
 #### Default text editors
-**MacOS:** Text Edit 
-**Windows:** Notepad
++ **MacOS:** Text Edit 
++ **Windows:** Notepad
 
 #### Third party text editors
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
@@ -21,8 +23,6 @@ A **text editor** is a piece of software that you download and install on your c
 
 #### Text editors vs IDEs
 An IDE (Integrated Development Environment) is a suite of different software all coming together. An IDE is a text editor, a file manager, a compiler, and a debugger all in one software package. Sample list of [Best Integrated Development Environments](https://www.g2.com/categories/integrated-development-environments-ide).
-
-Source: [Choosing a text editor](https://codefellows.github.io/code-102-guide/curriculum/class-02/Choosing-A-Text-Editor--The-Older-Coder.pdf)
 
 ## Command Line (CL)
 The **command line** is the prompt on a terminal to execute commands.
