@@ -11,7 +11,7 @@ As Lao Tzu said:
 >*The journey of a thousand miles begins with one step.*
 
 #### In my own words
-Growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertainties). It allows one to think about how to overcome difficult and uncertain tasks across different domains (e.g. learning, relationships, etc.). Specifically, it teaches that by using the framework, one is able to stay more open minded and have a long-term view in personal growth and change in order to overcome a new, difficult challenge/task.
+Growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertainties). It allows one to think about how to overcome difficult and uncertain tasks across different domains (e.g. learning, relationships, etc.). Specifically, it teaches that by using the framework of growth, one is able to stay more open minded and have a long-term view that better faciliate one's ability to overcome new, difficult challenges/tasks for which one may not yet be prepared.
 
 #### I plan to use the following reminders (using a daily journal):
 ```
