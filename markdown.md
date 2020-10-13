@@ -23,6 +23,7 @@ Below are some commonly used syntax for markdowns. There are other reference lin
 `****** or ------ or _______` : horizontal rule
 
 ### Links
++ [Basic writing and formatting](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 + [Github flavored markdowns](https://guides.github.com/features/mastering-markdown/)
 + [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 + [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
