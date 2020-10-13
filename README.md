@@ -25,5 +25,6 @@ Additional external links on growth mindset:
 * [Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
 
 ## Links
-Markdown (Links to an external site.)
++ Markdown (Links to an external site.)
++ [Command Line](https://github.com/sangmlee76/reading-notes/blob/main/commandline.md)
 
