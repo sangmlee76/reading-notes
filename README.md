@@ -19,10 +19,10 @@ I plan to use the following reminders (using a daily journal):
 3. Make it fun: think of it as a game to focus, challenge, and celebrate
 ```
 Additional external links on growth mindset:
-[What Having a “Growth Mindset” Actually Means](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means)
-[How Praise Became a Consolation Prize](https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/)
-[Carol Dweck Revisits the 'Growth Mindset'](https://www.edweek.org/ew/articles/2015/09/23/carol-dweck-revisits-the-growth-mindset.html)
-[Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
+* [What Having a “Growth Mindset” Actually Means](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means)
+* [How Praise Became a Consolation Prize](https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/)
+* [Carol Dweck Revisits the 'Growth Mindset'](https://www.edweek.org/ew/articles/2015/09/23/carol-dweck-revisits-the-growth-mindset.html)
+* [Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
 
 ## Links
 Markdown (Links to an external site.)
