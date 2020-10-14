@@ -27,3 +27,6 @@ Below are some commonly used syntax for markdowns. There are other reference lin
 + [Github flavored markdowns](https://guides.github.com/features/mastering-markdown/)
 + [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 + [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+****
+[<<< Back to Main](sangmlee76.github.io/reading-notes/)
