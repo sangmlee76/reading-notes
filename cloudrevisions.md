@@ -6,7 +6,7 @@
 + **Centralized VCS (CVCS)** - VCS on the cloud 
 + **Distributed VCS (DVCS)** - creates mirrored repos on clients. This creates a back-up for CVCS failure scenarios.
 + **Git** - a DCVS that stores data in a file system made up of *snapshots*. Supports 3 main states: *commmitted*, *modified*, *staged*.
-
+#
 ### Steps for cloning a Git repo:
 Clone existing Git repos into local PC. First set up a repo on Git using the repos set-up procedure.
 
@@ -15,16 +15,16 @@ Clone existing Git repos into local PC. First set up a repo on Git using the rep
 3. For existing directory: `git clone <URL> <directory name>`
 + Note: accessing GitHub repo URL: `git remote -v`
 
-
+#
 ### ACP (add-commit-push) process:
 1. Add file: `git add <file name>` or `git add *` (for all files)
 + Note: checking on git status: `git status`
 2. Commit file: `git commit -m " <description of change>"` or `git commit -a` (for all files)
 3. Push file: `git push origin main` 
 + Note: here, *origin* denotes server and *main* denotes client.
-
+#
 ### Flow diagrams:
-Following are some flow diagrams as visual aids.
+The following are some flow diagrams to be used as visual aids.
 
 ![Repository workflow](repos_structure.jpg)
 Fig 1. Repository structure

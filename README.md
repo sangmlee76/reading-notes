@@ -1,13 +1,13 @@
 
 ## Intro
 Hello. My name is Sang and this is my main reading-notes page. Enjoy!
-*************************
+****
 
 ## Table of Contents
 1. Growth Mindset
 2. Reading Notes
 
-************************
+******
 
 ## 1. Growth Mindset
 + [Growth Mindset](https://github.com/sangmlee76/reading-notes/blob/main/growthmindset.md)
@@ -18,5 +18,6 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 + [Lesson 3: Cloud Revision Notes](https://github.com/sangmlee76/reading-notes/blob/main/cloudrevisions.md)
 + [Lesson 4: HTML Notes](https://github.com/sangmlee76/reading-notes/blob/main/html.md)
 
-***********
+****
+*Last updated: 2020*
 
