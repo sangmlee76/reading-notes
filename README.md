@@ -28,4 +28,5 @@ Growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertai
 ## 3. Links
 + [Markdown](https://github.com/sangmlee76/reading-notes/blob/main/markdown.md)
 + [Command Line](https://github.com/sangmlee76/reading-notes/blob/main/commandline.md)
++ [Cloud Revisions](https://github.com/sangmlee76/reading-notes/blob/main/cloudrevisions.md)
 
