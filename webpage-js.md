@@ -12,3 +12,6 @@
 
 
 **Note:** *Where possible, keep each language in its own file (or directory), then use `<link>` to connect them together.  More specifically, use `<link>` in HTML file to bring in the .css or .js code.*
+
+***
+[<<< Back to Main](sangmlee76.github.io/reading-notes/)
