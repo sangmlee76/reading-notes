@@ -34,9 +34,10 @@ CSS allows you to create rules that control the way trhat each individual *box* 
     + Lightness (amount of white in color; *brightness* refers to how much black in color): expressed as % (e.g. 0% = black, 100% = white)
     + Alpha: values between 0.0 - 1.0 (e.g. 0.5 = 50% transparency)
 
-### Common 
+### Basic color representation to consider
 * Foreground color - color of text. Uses RGB, hexadecimal, and color name
 * Background color - same as foreground color.
+* Contrast - used for blending of foreground and background color to ensure text legibility (in various environments and device form factors) and to reduce eye strain.
 
 ***
 [<<< Back to Main](sangmlee76.github.io/reading-notes/)
