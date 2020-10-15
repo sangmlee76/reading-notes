@@ -11,4 +11,4 @@
     + Control how the page behaves, by adding interactivity
 
 
-**Note:** *Where possible, keep each language in its own file (and directory), then use `<link>` to connect them together.  More specifically, use `<link>` in HTML file to bring in the .css or .js code.*
+**Note:** *Where possible, keep each language in its own file (or directory), then use `<link>` to connect them together.  More specifically, use `<link>` in HTML file to bring in the .css or .js code.*
