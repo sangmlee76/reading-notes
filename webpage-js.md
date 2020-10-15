@@ -10,8 +10,23 @@
 3. Behavior layer (.js):
     + Control how the page behaves, by adding interactivity
 
+### Javascript basics
+1. file extension is `.js` (ex: my-script.js).
+2. Each line of code is a statement and must end with a semi-colon.
+```
+sum = 2 + 5;
+```
+3. Variables must be declared.
+```
+var today = new Date();
+```
+4. Comment notation: `/* <comment> */`.
 
-**Note:** *Where possible, keep each language in its own file (or directory), then use `<link>` to connect them together.  More specifically, use `<link>` in HTML file to bring in the .css or .js code.*
+5. Linking HTML and JS, use `<script></script>`. It can be placed in any section (e.g head, body, etc.).
+```
+<script src="add-content.js"></script>
+```
+6. Best practice:  keep each language in its own file (or directory). 
 
 ***
 [<<< Back to Main](sangmlee76.github.io/reading-notes/)
