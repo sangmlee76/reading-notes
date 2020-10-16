@@ -5,17 +5,17 @@ A **text editor** is a piece of software that you download and install on your c
 
 Source: [Choosing a text editor](https://codefellows.github.io/code-102-guide/curriculum/class-02/Choosing-A-Text-Editor--The-Older-Coder.pdf)
 
-#### Key features of a text editor, which varies by each developer, identified in the article are as follows:
+### Key features of a text editor, which varies by each developer, identified in the article are as follows:
 - **Code completion:** It allows you to start typing, and the code completion feature will display possible suggestions based on what you originally typed.
 - **Syntax highlighting:** By using different colored texts based on what the text represents. For example, attributes are a different color than elements. This aids in debugging code by making it easier to read.
 - **Variety of themes:** Can adjust background to darker color theme to reduce eye strain and fatigue.
 - **Healthy selection of extensions:** Extensions are like plugins for your text editor.
 
-#### Default text editors
+### Default text editors
 + **MacOS:** Text Edit 
 + **Windows:** Notepad
 
-#### Third party text editors
+### Third party text editors
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [BB Edit (formerly Text Wrangler)](https://www.barebones.com/products/textwrangler/)
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/)
@@ -31,14 +31,14 @@ An IDE (Integrated Development Environment) is a suite of different software all
 ## Command Line (CL)
 The **command line** is the prompt on a terminal to execute commands.
 
-#### Key Concepts
+### Key Concepts
 + **Relative path:** A file or directory location relative to where we currently are in the file system.
 + **Absolute path:** A file or directory location in relation to the root of the file system.
 + **Everything is a file under Linux:** This includes directories.
 + **Linux is an extensionless system:** Files can have any extension or none at all.
 + **Linux is case sensitive:** Beware of silly typos.
 
-#### CL Cheatsheet
+### CL Cheatsheet
 `up/down arrow` (at command line): traverses recent history of commands.
 
 `pwd`: Print Working Directory - ie. Where are we currently.
@@ -67,7 +67,7 @@ directory.
 **for compound word file names (has space(s) in name):** use escape () or quotes ('') to avoid errors (e.g. cd 'Holiday Photos' or cd Holiday\ Photos).
 
 
-#### Links
+### Links
 + [Command Line!](https://ryanstutorials.net/linuxtutorial/commandline.php)
 + [Basic Navigation!](https://ryanstutorials.net/linuxtutorial/navigation.php)
 + [More About Files!](https://ryanstutorials.net/linuxtutorial/aboutfiles.php)

@@ -1,6 +1,6 @@
 # Read 06a - Notes: Dynamic web pages with Javascript
 
-### Webpage framework
+## Webpage framework
 
 1. Content layer (.html):
     + Holds the content of the webpage
@@ -10,7 +10,7 @@
 3. Behavior layer (.js):
     + Control how the page behaves, by adding interactivity
 
-### Javascript basics
+## Javascript basics
 1. file extension is `.js` (ex: my-script.js).
 2. Each line of code is a statement and must end with a semi-colon.
 ```
@@ -28,5 +28,12 @@ var today = new Date();
 ```
 6. Best practice:  keep each language in its own file (or directory). 
 
+7. Use of `document.write()`:
+    + Is unsecure so only use in CF102
+    + Takes a single string as an argument (e.g. must use concatenation)
+```
+greeting = "hello"
+document.write('<h3>' + greeting + '</h3>');
+```
 ***
 [<<< Back to Main](sangmlee76.github.io/reading-notes/)
