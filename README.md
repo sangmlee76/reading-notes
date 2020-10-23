@@ -4,13 +4,13 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 ****
 
 ## Table of Contents
-1. Growth Mindset
+1. [Growth Mindset](#1.-growth-mindset)
 2. Code 102 Reading Notes
 3. Code 201 Reading Notes
 
 ******
 
-## 1. Growth Mindset
+## 1. [Growth Mindset]
 + [Growth Mindset](https://sangmlee76.github.io/reading-notes/growthmindset)
 
 ## 2. Code 102 Reading Notes
