@@ -4,7 +4,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 ****
 
 ## Table of Contents
-1. [Growth Mindset](#1.-growth-mindset)
+1. Growth Mindset
 2. Code 102 Reading Notes
 3. Code 201 Reading Notes
 
