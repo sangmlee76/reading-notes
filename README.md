@@ -25,7 +25,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 + [Lesson 8: Operators and Loops](https://sangmlee76.github.io/reading-notes/js-operators-loops)
 
 ## 3. Code 201 Reading Notes
-+ [Lesson 1:](https://sangmlee76.github.io/reading-notes/class-01)
++ [Lesson 1: Introductory HTML and Javascript](https://sangmlee76.github.io/reading-notes/class-01)
 + [Lesson 2:](dummylink.com)
 + [Lesson 3:](dummylink.com)
 + [Lesson 4:](dummylink.com)
