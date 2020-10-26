@@ -72,7 +72,7 @@
 ## Process and design (HTML/CSS - Ch 18)
 1.  Identify the target user
 2.  Build a site map
-3.  Build a wire frame
+3.  Build a wireframe
 4.  Employ design principles
 
 ### Identify the target user:
@@ -87,6 +87,11 @@
 + Focus on **grouping**
 + Keep user's goal in mind
 
+### Build a wireframe
++ ***Wireframe*** shows the hierarchy of the information and how much space it might require.
++ Do not include design details (e.g. color scheme, font choices, background, images, etc.)
++ Focus on creating a visual hierarchy to indicate the most important parts of each page.
+
 ### Employ design principles:
 + Primary goal is clear communication to help user achieve one's goal
 + Key concepts:
@@ -96,6 +101,7 @@
   - Navigation
 
 ***(Note: see p. 453 for details)***
+
 ***
 ## The ABC of Programming (Javascript - Ch 1)
 A script is a series of instructions that a computer can follow to achieve a goal.

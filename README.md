@@ -11,7 +11,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 ******
 
 ## 1. Growth Mindset
-+ [Growth Mindset](https://sangmlee76.github.io/reading-notes/growthmindset)
++ [Growth Mindset](https://github.com/sangmlee76/reading-notes/blob/main/Code%20102/growthmindset)
 
 ## 2. Code 102 Reading Notes
 + [Lesson 1: Markdown Notes](https://sangmlee76.github.io/reading-notes/markdown)
