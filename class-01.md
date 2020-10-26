@@ -46,16 +46,7 @@
 
 + Grouping text and elements (inline): `<span>`
 
-+ Iframe - inserting a window of specific content in your webpage (e.g. google maps): 
-```
-<iframe
-   src = "http://_______"
-   width = "450"
-   height = "350"
-   frameborder = "0"
-   scrolling = "no">
-</iframe>
-```
++ Iframe - inserting a window of specific content in your webpage (e.g. google maps): `<iframe src = "http://   " width = "450" height = "350" frameborder = "0" scrolling = "no"></iframe>`
 
 + Page metadata - lives inside `<head>` elements and contains info about the webpage (see p. 191 - 192 for details): `<meta>`
 
