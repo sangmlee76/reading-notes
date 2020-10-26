@@ -34,34 +34,42 @@
 ```
 <!DOCTYPE html>
 ```
+
 + Comments in html - notes/documentation for organization - not executed as code:
 ```
 <!-- comment -->
 ```
+
 + ID attribute - used to uniquely (cannot be used elsewhere within the html doc) id an element: 
 ```
 <p id="id name"></p>
 ```
-+ Class attribute - used for idnetifying several elements:
+
++ Class attribute - used for identifying several elements:
 ```
 <p class="business"></p> or <p class="business size"></p> (for multiple class designation)
 ```
+
 + Block elements - elements that *start on a new line* in the browser window:
 ```
 <h1>, <p>, <ul>, and <li>
 ```
+
 + Inline elements - elements that appear to continue on the same line as their neighboring elemments: 
 ```
 <a>, <b>, <em>, and <img>
 ```
+
 + Grouping text and elements (block): 
 ```
 <div>
 ```
+
 + Grouping text and elements (inline): 
 ```
 <span>
 ```
+
 + Iframe - inserting a window of specific content in your webpage (e.g. google maps): 
 ```
 <iframe
@@ -72,10 +80,12 @@
    scrolling = "no">
 </iframe>
 ```
+
 + Page metadata - lives inside `<head>` elements and contains info about the webpage (see p. 191 - 192 for details): 
 ```
 <meta>
 ```
+
 + Escape characters - used to substitute characters that have been reserved by HTML code (see p. 194 for examples). 
 
 ***
@@ -90,6 +100,8 @@
 + Sections : `<section>`
 + Figures : `<figure>` `<figcaption>`
 + Sectioning elements : `<div>`
+
+***(See p. 429 for details)***
 
 ***
 
@@ -119,6 +131,7 @@
   - Similarity
   - Navigation
 
+***(Note: see p. 453 for details)***
 ***
 ## The ABC of Programming (Javascript - Ch 1)
 A script is a series of instructions that a computer can follow to achieve a goal.
