@@ -40,4 +40,4 @@ CSS allows you to create rules that control the way trhat each individual *box* 
 * Contrast - used for blending of foreground and background color to ensure text legibility (in various environments and device form factors) and to reduce eye strain.
 
 ***
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)

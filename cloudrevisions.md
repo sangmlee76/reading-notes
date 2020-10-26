@@ -35,4 +35,4 @@ Fig 2. File Life Cycle
 Content Source: [Git Tutorial: A comprehensive guide](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#7_2)
 
 ****
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)

@@ -66,4 +66,4 @@ function calArea(width, height){
 
 
 ***
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)

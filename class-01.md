@@ -142,4 +142,5 @@ Computers create models of things in the read world to understand and take actio
   - this has implications on page loading time -- in general, do not place it in the `<head>`, place it before teh `</head>/ at the end -- or use alt options).
 
 ***
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
+

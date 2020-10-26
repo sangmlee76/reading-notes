@@ -40,6 +40,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 + [Lesson 13:](dummylink.com)
 + [Lesson 14:](dummylink.com)
 + [Lesson 15:](dummylink.com)
-****
-*Last updated: 2020*
 
+****
+
+*Last updated: 2020*

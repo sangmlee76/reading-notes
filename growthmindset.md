@@ -18,4 +18,4 @@ Growth mindset is a frame of tackling new challenges (e.g. unknowns and uncertai
 * [Dr. Dweck’s research into growth mindset changed education forever](https://www.mindsetworks.com/science/)
 
 ****
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)

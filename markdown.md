@@ -29,4 +29,4 @@ Below are some commonly used syntax for markdowns. There are other reference lin
 + [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ****
-[<<< Back to Main](sangmlee76.github.io/reading-notes/)
+[<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
