@@ -44,7 +44,7 @@
 ```
 + Class attribute - used for idnetifying several elements:
 ```
-<p class="business"></p>` or `<p class="business size"></p> (for multiple class designation)
+<p class="business"></p> or <p class="business size"></p> (for multiple class designation)
 ```
 + Block elements - elements that *start on a new line* in the browser window:
 ```
@@ -54,18 +54,18 @@
 ```
 <a>, <b>, <em>, and <img>
 ```
-+ Grouping text and elements (block) : 
++ Grouping text and elements (block): 
 ```
 <div>
 ```
-+ Grouping text and elements (inline) : 
++ Grouping text and elements (inline): 
 ```
 <span>
 ```
 + Iframe - inserting a window of specific content in your webpage (e.g. google maps): 
 ```
 <iframe
-   src = "htt://_______"
+   src = "http://_______"
    width = "450"
    height = "350"
    frameborder = "0"
