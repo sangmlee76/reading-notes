@@ -58,6 +58,10 @@ Think of each HTML element having a box around it that can be formatted
 ### CSS rules contain two parts: selector and declaration
 ```
 p {font-family: Arial;}
+
+where,
+    p --> selector
+    {} --> declaration
 ```
 ### How to connect CSS to HTML
 1. External CSS: use `<link>` element; found in `<head>` element
