@@ -1,4 +1,4 @@
-# Read 02 - Notes: HTML Lists, CSS Boxes, JS Control Flow
+# Read 03 - Notes: HTML Lists, CSS Boxes, JS Control Flow
 
 ## HTML Lists (HTML/CSS: Ch 3)
 1. **Ordered lists** are 'numbered' lists
