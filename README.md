@@ -27,7 +27,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 ## 3. Code 201 Reading Notes
 + [Lesson 1: Introductory HTML and Javascript](https://sangmlee76.github.io/reading-notes/Code-201/class-01)
 + [Lesson 2: HTML Text, CSS Introduction, and Basic Javascript Instructions](https://sangmlee76.github.io/reading-notes/Code-201/class-02)
-+ [Lesson 3:](dummylink.com)
++ [Lesson 3: HTML Lists, CSS Boxes, JS Control Flow](https://sangmlee76.github.io/reading-notes/Code-201/class-03)
 + [Lesson 4:](dummylink.com)
 + [Lesson 5:](dummylink.com)
 + [Lesson 6:](dummylink.com)

@@ -217,7 +217,7 @@ if (score >= 50) {
 ```
 
 ### Assignment operators (extra)
-Assignment operators are used to change/update variables (they are **different** from Arithmetic operators from Read 07 notes).
+Assignment operators are used to change/update variables (they are **different** from Arithmetic operators).
 - `=` : x = y
 - `+=` : x = x + y
 - `-=` : x = x - y
@@ -226,6 +226,7 @@ Assignment operators are used to change/update variables (they are **different**
 - `%=` : x = x % y
 - `**=` : x = x ** y
 
+(see p.)
 
 ***
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
