@@ -29,7 +29,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 + [Lesson 2: HTML Text, CSS Introduction, and Basic Javascript Instructions](https://sangmlee76.github.io/reading-notes/Code-201/class-02)
 + [Lesson 3: HTML Lists, CSS Boxes, JS Control Flow](https://sangmlee76.github.io/reading-notes/Code-201/class-03)
 + [Lesson 4 Study Guide: HTML Links, CSS Layout, JS Functions](https://sangmlee76.github.io/reading-notes/Code-201/class-04)
-+ [Lesson 5:](dummylink.com)
++ [Lesson 5: HTML Images; CSS Color & Text](https://sangmlee76.github.io/reading-notes/Code-201/class-05)
 + [Lesson 6:](dummylink.com)
 + [Lesson 7:](dummylink.com)
 + [Lesson 8:](dummylink.com)
