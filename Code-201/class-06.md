@@ -1,4 +1,4 @@
-# Read 05 - Study Guide: JS Object literals; The DOM
+# Read 06 - Study Guide: JS Object literals; The DOM
 
 ## What is an object (Ch. 3)
 + Objects group together a set of variable and functions to create a _____ of something you would recognize from the real world. 
