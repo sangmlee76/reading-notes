@@ -92,5 +92,5 @@ Accessing and updating the DOM tree involves two steps:
 + The other choice is to become better at understanding problem domains. 
   - Talk to customers, business people, and product owners
  
-
+*****
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
