@@ -1,19 +1,21 @@
 # Read 05 - Study Guide: HTML Images; CSS Color and Text
 
 ## HTML Images (HTML/CSS: Ch 5, p.94-125)
+### Adding images
 + ______ element is used to add an image to a web page. It is an empty element, and contains the following attributes:
   - ____: tells the browser where it can find the image file.
-  - ____: provides the text description of the image.
-  - ____: can be used to provide additional information about the image.
-
+  - ____: provides the text description of the image. Use good description as it will be used by screen readers.
+  - ____: can be used to provide additional information about the image. It is used to provide readers a description when they hover over the image ([reference](https://docs.oracle.com/en/cloud/saas/marketing/cm-user/Help/Posts/Tasks/CustomizingPosts/AddingTitleTagsImages.htm))
 + _____ & ______ measurements identify the image size.
 
+### Image placement
 + There are three primary locations within an HTML file where you should place an image:
   - Before a _____________.
   - Inside the start of a _____________. In the middle of a ______________. (hint, the blanks are all the same word)
 + _________ elements always appear on a new line (e.g. `<h1>`, `<p>`).
 + _________ elements sit within a block level element and do not start on a new line (e.g. `<b`, `<em>`, `<img>`>)
 + ________ attribute was commonly used to indicate how text was to flow around an image. This is no longer used in HTML5 but may be found from time to time in old code.
+
 
 ### Three rules for creating images
 1. Save images in the right ______.

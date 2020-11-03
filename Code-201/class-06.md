@@ -48,14 +48,37 @@
   - ____________ nodes are not childrens but part of the element that carries them.
   - ____________ nodes cannot have children. This is why this node is always a new branch of the DOM tree.
 
-  ## Working with a DOM tree
-  + Accessing and updating the DOM tree involves two steps:
-    - locate the node that represents the element you want to work with.
-    - use its text content, child elements, and attributes.
+### Working with a DOM tree
+Accessing and updating the DOM tree involves two steps:
+  1. locate the node that represents the element you want to work with.
+  2. use its text content, child elements, and attributes.
  
+### Accessing Elements
++ Accessing individual elements:
+  - **getElementsByID()**: uses the value of an element's id attribute (should be unique to the page)
+  - **querySelector()**: uses a CSS selector and returns the first matching element
+  - Can select individual elements by traversing from one element to another within the DOM tree
++ Accessing multiple elements (nodelists):
+  - **getElementsByClassName()**: Selects all elements that have a specific value for their class attribute
+  - **getElementsByTagName()**: selects all elements that have the specified tag name
+  - **querySelectorAll()**: uses a CSS selector to select all matching elements
+
+### Working with selected elements
+
++ Access/update text nodes:
+  - select the element (e.g. `<li`>)
+  - use the `firstChild` property to get the text node
+  - use the text node's only property (`nodeValue`) to get the text from the element
+  - `nodeValue` lets you access or update contents of a text node
+
++ Work with HTML content:
+  - **innerHTML**: property that allows access to child elements and text content
+  - **textContent**: access to just the text content
+  - ** 
+
  (see.pp 188 - 224 for specific commands)
 
- ## Article: Understanding the problem domain is the hardest part of programming
+ ## Article: [Understanding the problem domain is the hardest part of programming](https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming)
  + It is very difficult to learn more than one thing at once.
  + Writing code is a lot like putting together a jigsaw puzzle.  We put together code with the purpose of building components that we have taken out of the “bigger picture” of the problem domain.
  + The real world is a messy place.  Many of the problem domains we face as programmers are difficult to understand and look completely different depending on your viewpoint.
