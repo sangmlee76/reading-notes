@@ -39,7 +39,7 @@ Hello. My name is Sang and this is my main reading-notes page. Enjoy!
 + [Lesson 12: Docs for the HTML <canvas> Element & Chart.js](https://sangmlee76.github.io/reading-notes/Code-201/class-12)
 + [Lesson 13: Local Storage](https://sangmlee76.github.io/reading-notes/Code-201/class-13)
 + [Lesson 14a: CSS Transforms, Transitions, and Animations](https://sangmlee76.github.io/reading-notes/Code-201/class-14a)
-+ [Lesson 14b: What Google Learned About Teams](https://sangmlee76.github.io/reading-notes/Code-201/class-14b)
++ [Lesson 14b: What Google Learned About Teams](https://sangmlee76.github.io/reading-notes/Code-201/class-14b)git s
 
 ****
 
