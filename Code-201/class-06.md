@@ -25,6 +25,8 @@
 + You can also access the properties or methods of an objectd using ____________ syntax.
   - Describe 3 scenarios where this notation is most commonly used.
 
+***
+
 ## DOM (document objectd model)
 
 + The DOM specifies how broswers should create a model of an _____ page and how _______ can access and update the contents of a webpage while it is in the browswer window.
@@ -77,6 +79,8 @@ Accessing and updating the DOM tree involves two steps:
   - ** 
 
  (see.pp 188 - 224 for specific commands)
+
+***
 
  ## Article: [Understanding the problem domain is the hardest part of programming](https://simpleprogrammer.com/understanding-the-problem-domain-is-the-hardest-part-of-programming)
  + It is very difficult to learn more than one thing at once.

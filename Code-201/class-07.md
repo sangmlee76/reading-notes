@@ -21,6 +21,7 @@ Tables use grid format to represent information.
 + Old Code: width and spacing (p.137)
 + Old Code: border and background (p.138)
 
+***
 
 ## Functions, Methods, and Objects (JS: p.106 - 144))
 Obj constructors use a function as a **template** for creating objects.
@@ -98,6 +99,8 @@ An **object model** is a group of objects, each of which represent related thing
   - Number obj (p.132)
   - Math obj (p.134)
   - Date obj (p.136)
+
+***
 
 ## Article: [Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)
 

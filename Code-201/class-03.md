@@ -45,7 +45,7 @@ Can put lists inside `<li>` element to create sublists
   </li>
 </ul>
 ```
-
+***
 ## CSS Boxes (HTML/CSS: Ch 13)
 + By default, box is sized just big enough to hold its contents
 
@@ -110,6 +110,7 @@ height: 75%; width: 75%;
 + **box-shadow** adds a drop shadow around a box
 + **border-radius** provides rounded corner for boxes. It can also apply elliptical shapes.
 
+***
 ## Arrays (JS: Ch 2, p.70 - 73)
 + **Arrays** are used when working with a list of set of values that are related. Do not need to specify quantity of values it will hold.
   - values are assigned to an array inside a pair of square brackets
@@ -127,6 +128,7 @@ height: 75%; width: 75%;
   - the number assignment in an array (automatic) is called the **index** (e.g. `itemOne = colors[1]` defines the value at the second index of the array)
   - the ***length" method returns the number of items in an array (e.g. `var numColors; numColors = colors.length;`)
 
+***
 ## Decision and Loops (JS: Ch 4, p.164 - 182)
 + **Switch statement** starts with a variable called the **switch value**. Each `case` indicates a possible value for this variable and the code that runs if the variable matches the value
 + Multiple IF-ELSE statements perform more slowly than switch statements

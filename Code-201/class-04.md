@@ -53,7 +53,7 @@
   (p.87)
 
 + What, if any, is the difference in code if you were linking to a specific part of another page? (p.88)
-
+***
 ## CSS Layout (HTML/CSS: Ch 15, with focus on p.358-364)
 + In your own words, briefly describe the difference between **block-level** and **inline** elements. What are examples of each? (p.361)
 
@@ -78,7 +78,7 @@
 
 + Because any element moved from normal flow can overlap, the ________ property allows you to control which box appears on top. (p. 364)
 
-
+***
 ## JS Functions, Methods, and Objects (JS: Ch 3, p.86-99)
 
 ### What is a function?

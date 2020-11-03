@@ -48,7 +48,7 @@
 + The _______ element allows web authors to add a caption to an image.
 + Write an example code that incorporates how one might implement an image with a caption on a webpage using the two elements in this section. (see p.120 for details)
 
-
+***
 ## CSS Color (HTML/CSS: Ch 11, p. 246 - 263)
 
 ### Main ways to change color
@@ -69,6 +69,7 @@
 * Background color - same as foreground color.
 * Contrast - used for blending of foreground and background color to ensure text legibility (in various environments and device form factors) and to reduce eye strain.
 
+***
 ## CSS Text (HTML/CSS: Ch 12, 264 - 299)
 + See p.267-268 for details on **Typeface terminology**
 + When choosing a typeface, a browser will usually only display it if it's installed on that user's *computer*
