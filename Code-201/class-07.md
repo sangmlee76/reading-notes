@@ -46,7 +46,7 @@ hotel.checkAvailability = function() {
 hotel ['name'] = 'Park';
 
 // delete property --> delete hotel.name;
-// claring the value of a property --> hotel.name = '';
+// clearing the value of a property --> hotel.name = '';
 ```
 
 ### Creating many object constructors
@@ -78,13 +78,13 @@ hotel ['name'] = 'Park';
 
 + See arrays and objects details on p.118-119
 
-### Build-in objects (p. 120 - 139)
+### Built-in objects (p. 120 - 139)
 An **object model** is a group of objects, each of which represent related things from the real world. Together they form a model of something larger.
 
 + 3 Types:
-  1. Browswer ojbect model: contains objects that represent the current browser window or tab (e.g. browser history, device screen) (p. 124 - 125 for details)
-  2. Document object model: uses objects to create a representation of the current page. (p.126 - 127 for details)
-  3. Global Javascript objects: represent things that the JS language needs to create a model of (e.g. for dates and times)(p.128 - 139 for details)
+  1. **Browser object model**: contains objects that represent the current browser window or tab (e.g. browser history, device screen) (p. 124 - 125 for details)
+  2. **Document object model**: uses objects to create a representation of the current page. (p.126 - 127 for details)
+  3. **Global Javascript objects**: represent things that the JS language needs to create a model of (e.g. for dates and times)(p.128 - 139 for details)
 
 + There are 6 data types: (p.131)
   - String
@@ -106,10 +106,17 @@ An **object model** is a group of objects, each of which represent related thing
 
 ### JS object-oriented programming:
 1. The `new` keyword **instantiates** (i.e. creates) an object.
-2. The constructor function **initializes** properties inside that object using the `this` variable.
+2. The constructor function **initializes** properties inside that object using the `this` key word.
 3. The object is stored in a variable for later use
 
 + Methods can be added to a constructor function's **prototype** (an established best practice in JS)
+  - Other external links on using prototypes:
+    + [Using Prototypes in Javascript](https://timkadlec.com/2008/01/using-prototypes-in-javascript/)
+    + [Why use prototypes in JavaScript](https://idiallo.com/javascript/why-use-prototypes)
+    + [Prototypes in JavaScript](https://www.tutorialsteacher.com/javascript/prototype-in-javascript)
+    + [Object Prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+    + [Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+    + [Prototypes in JavaScript](https://medium.com/better-programming/prototypes-in-javascript-5bba2990e04b)
 
 + Domain modeling is the process of creating a conceptual model for a specific problem. And a domain model that's articulated well can verify and validate your understanding of that problem.
 
