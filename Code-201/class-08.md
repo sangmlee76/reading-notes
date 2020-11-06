@@ -63,5 +63,87 @@
 + The area of the page that users can see without scrolling (called *"above the fold"*) is tougher to gauge; but at the same time not as critical (e.g. users usually don't mind scrolling). The generally accepted target is **570 - 600 pixels** with a hint of more content below this range (do not cram too much in this initial section, however)
 + Increasingly, adaptive/responsive design is becoming more popular to accomodate and to create a consistent UX across the variation of screen sizes and resolutions.
 
+## Fixed and Liquid Layouts
++ Fixed width layout designs **do not** change size as the user increases or decreases the size of their browser window. Measurements tend to be given in _________.
+  - advantages:
+    - more accuracy in controlling size and positioning
+    - more design control compared to liquid layout
+    - can control lengths of lines of text regardless of size of the user's window
+    - size of image will always remain the same
+  - disadvantages:
+    - big gaps around edge of pages
+    - user's screen resolution can impact what they see if significantly different than the original design screen resolution
+    - will take up more vertical space compared to liquid layout with the same content
++ Liquid layout designs stretch and contract as the user increase/decrease the size of their browser window. Measurements tend to use ___________.
+  - advantages:
+    - pages fill the entire browser window so no sapces around the page
+    - if the user has a small window, they don't have to scroll left/right.
+  - disadvantages:
+    - if you do not control the width of sections of the page then the design can result in unexpected gaps around certain elements or items bunched together.
+    - if user has a wide window, lines of text can be very long and hard to read.
+    - if user has a narrow window, words may bunch together and end up with few words on each line.
+    - if a fixed width item (e.g. images) is in a box that is too small to hold it, the image can overflow over the text.
+  - **Note**: As a best practice, you can allow certain parts of the page to use liquid layout and other parts to have min/max widths.
+
+## Fixed width layout, in detail
++ (in CSS) Setting the `<body>` element with a fixed width of **960 pixels** (`width: 960px;`) and setting the margin to `margin: 0 auto;` will fix/set the *canvas* upon which to build the page.
++ Make sure that all elements do not exceed the horizontal fixed width establish as the canvass (e.g. 960 px) 
++ When building columns and other elements, use `float: left`
++ **Note**: Sometimes an *extra HTML* element is used to contain the page, rather than fixing the width of the `<body>`. This allows the background of the browser window to have a different color than the background of the content.
+
+## Liquid layout, in detail
++ (in CSS) Setting the `<body>` element with a width of **90%** (`width: 90%;`) and setting the margin to `margin: 0 auto;` will fix/set the *canvas* upon which to build the page. 
++ Percentages are relative so elements within the canvass will have percentages that are relative to the container.
+  - for example: three columns will have each column width set to 31.3% so that it will add up to 99% (meaning that it will cover 99% of the width of the element that it's on)
++ When building columns and other elements, use `float: left`
++ Use `min-width` and `max-width` properties to help adjust for very wide and very narrow screens
+
+## Layout grids (p.387 - 394)
++ Benefits:
+  - creates continuity between different pages which may use different design
+  - helps users predict where to find information
+  - makes it easier to add new content to the site consistently
+  - helps people collaborate on the design in a consistent way
+
++ See p. 389-390 for possible layouts using 960px, 12 volumn grid
+  - each column has margin set to 10px (which creates a gap of 20px between each column and 10px on the right/left edges of the page)
+ 
++ **CSS Frameworks**: provides the code for common tasks such as creating layout grids, styling forms, creating printer-friendly version of pages, etc. (see p. 391 - 394 for details)
+  - One of the most popular uses of CSS frameworks is in creating grids to layout pages (one example of such is *960 Grid System* (available at www.960.gs)
+  - 960.gs provides a style sheet that can be included in HTML pages; once linked, use classes in HTML code to build the grid layout.
+
+## Multiple style sheets (p.395 - 396)
+Some authors use multiple style sheets; for example, one will be used to control the layout and another to control format (e.g.fonts, colors, etc.)
+
+Some will make it even more **modular** and create separate style sheets to control typography, layout, forms, tables, or even subsections of a site.
+
+### There are 2 options for adding multiple stylesheets:
+1. HTML page links to one style sheet and that stylesheet uses the `@import` rule to import other style sheets. 
+2. HTML links to separate `<link>` element for each style sheet.
+
+### @import (p.395)
+Note: make sure this goes above any other rule in the style sheet (i.e. it should be at the top of your CSS style sheet)
+```
+@import url("tables.css");
+@import url("typography.css");
+
+... rest of CSS rules
+```
+The *Last rule* still applies, the stylesheet that comes last will overwright any existing duplicate styles. So, the styles in the main style sheet will overwrite any styles coming in from the imported style sheets.
+
+### link (p.396)
++ CSS style sheets are linked from the `<head>` element in HTML. 
++ Separate `<link>` elements are provided for each style sheet. 
++ The *Last rule* still applies, the stylesheet that comes last will overwright any existing duplicate styles. 
+```
+<head>
+  <title> My Style Sheets </title>
+  <link rel="stylesheet" type="text/css" href="css/site.css" />
+  <link rel="stylesheet" type="text/css" href="css/tables.css" />
+  <link rel="stylesheet" type="text/css" href="css/forms.css" />
+  </title>
+</head>
+```
+Note: the styles from forms.css will have precedence in accordance with the *Last rule*.
 *****
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
