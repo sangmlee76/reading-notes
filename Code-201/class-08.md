@@ -144,6 +144,6 @@ The *Last rule* still applies, the stylesheet that comes last will overwright an
   </title>
 </head>
 ```
-Note: the styles from forms.css will have precedence in accordance with the *Last rule*.
+Note: the styles from **forms.css** will have precedence over the other CSS stylesheets in accordance with the *Last rule*.
 *****
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
