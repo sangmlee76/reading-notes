@@ -491,10 +491,10 @@ See the article link for sample code and the transitions in action:
 *****
 ## Additional Code-Pen samples of transition examples
 
-1. 6 buttons animated [link](https://codepen.io/retyui/pen/ByoaXV)
-2. CSS Keyframes animation [link](https://codepen.io/akshaychauhan/pen/oAfae)
-3. 404 [link](https://codepen.io/kieranfivestars/pen/MYdQxX)
-4. Pure CSS bounce animation [link](https://codepen.io/dp_lewis/pen/gCfBv)
+1. [6 buttons animated](https://codepen.io/retyui/pen/ByoaXV)
+2. [CSS Keyframes animation](https://codepen.io/akshaychauhan/pen/oAfae)
+3. [404](https://codepen.io/kieranfivestars/pen/MYdQxX)
+4. [Pure CSS bounce animation](https://codepen.io/dp_lewis/pen/gCfBv)
 
 
 *****
