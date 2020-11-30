@@ -15,11 +15,15 @@
 
 + Flexible grids are built using relative length units, most commonly percentages or em units. These relative lengths are then used to declare common grid property values such as width, margin, or padding.
 
++ CSS3 introduced some new relative length units, specifically related to the viewport size of the browser or device. These new units include vw, vh, vmin, and vmax. Overall support for these new units isn’t great, but it is growing. In time they look to play a large roll in building responsive websites.
+  - vw: Viewports width
+  - vh: Viewports height
+  - vmin: Minimum of the viewport’s height and width
+  - vmax: Maximum of the viewport’s height and width
+
 + Flexible layouts do not advocate the use of fixed measurement units, such as pixels or inches. Reason being, the viewport height and width continually change from device to device. Website layouts need to adapt to this change and fixed values have too many constraints
 
-+ Ethan pointed out an easy formula to help identify the proportions of a flexible layout using relative values.
-
-+ The formula is based around taking the target width of an element and dividing it by the width of it’s parent element. The result is the relative width of the target element.
++ An easy formula to help identify the proportions of a flexible layout using relative values. The formula is based around taking the target width of an element and dividing it by the width of it’s parent element. The result is the relative width of the target element.
 `target ÷ context = result`
 
 ### Media Queries
