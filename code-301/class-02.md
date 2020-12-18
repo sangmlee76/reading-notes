@@ -1,9 +1,40 @@
 # Read 02 - Notes: jQuery, Events, and The DOM
 
-## JavaScript and jQuery book by Jon Duckett pages 293-301, 306-331 and 354-357
+## JavaScript and jQuery (Duckett pages 293-301, 306-331 and 354-357)
+
+### What is jQuery?
++ jQuery offers a simple way to achieve a variety of common JavaScript tasks quickly and consistently, across all major browsers and without any fallback code needed.
+  - **Select elements** (e.g. uses CSS style queries rather than DOM queries - which are more powerful and flexible)
+  - **Perform tasks** (e.g. update DOM, animate elements, loop through elements)
+  - **Handle events** (e.g. methods for event listeners)
+
+### How does it work?
+
+1. **Element selection**:  `jQuery()` **function** or the shorthand `$()` uses CSS-style selectors, which creates a jQuery object **that holds references to the selected elements**.
+
+```
+$('li.hot')
+
+This selector finds all of the <li> elements with a class of 'hot'. You can also sotre this jQuery object in a variable or use methods and properties to manipulate the selected DOM node.
+```
+
+2. **jQuery methods**: jQuery methods represent tasks that you commonly need to perform with elements.
+```
+$('li.hot').addClass('complete');
+
+The jQuery object (or the 'jQuery selection') here is modified by adding a new class attribute with the parameter 'complete'.
+```
+3. Key benefits of jQuery over DOM Query
+  - cross browser
+  - element selection is simpler and more accurate
+  - event handling is simpler with the use of a single method
+  - methods affect all the selected elements without the need to use loops
+  - once you have made a selection, you can apply multiple methods to it
 
 
 
+
+*****
 ## Article: [6 reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
 + What are the two roles in pair programming?
 
@@ -15,7 +46,7 @@
 + What are the 4 fundamental skills in language acquisition?
   - _____: interpreting the vocabulary
   - _____: using the correct words to communicate
-  - _____: understanding waht written language intends to convey
+  - _____: understanding what written language intends to convey
   - _____: producing from scratch a meaninful content
 
 + List the 6 reasons of pair programming (per the article)? 
