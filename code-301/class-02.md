@@ -31,8 +31,66 @@ The jQuery object (or the 'jQuery selection') here is modified by adding a new c
   - methods affect all the selected elements without the need to use loops
   - once you have made a selection, you can apply multiple methods to it
 
+### jQuery Deep Dive
++ **When selecting elements using uQuery**, the jQuery object contains a reference to the the element (single or multiple); whether it returns a single or multiple elements, the jQuery object assigns an index number to each element node (like an Array) (see p.306 for details)
+
++ **When getting information using jQuery**, if a jQuery selection holds more than one element, using a method to extract information from the selected elements will **retrieve information from ONLY the first element** in the matched set. (see p.307 for details)
+
++ **When setting information using jQuery**, if a jQuery selection holds more than one element, using a method to update information in the selected elements will **update ALL of the elements** in the matched set (not just the first one, which is different behavior than getting the info)(see p.307 for details)
+
+**NOTE**: jQuery object is an array-like object because it stores list of the elements **in the same order** that they appear in the HTML document (other ojbects do not preserve order of the properties).
+
+**Key Insight**: For a framework on how jQuery objects store references to elements and how jQuery variables cache jQuery selections (including a high-level visual model), see p.308 - 309.
+
+**Other Notes**: 
+1. In jQuery, **implicit iteration** allows you to replicate the same rule to several elements (e.g. a loop does not neet to be used).
+```
+$('li.hot').addClass('favorite');
+
+This adds a new class to the existing elements with the class values 'hot'
+```
+2. **Chaining** is when more than one method is used in a single line of code to execute multiple methods. Most methods to **update** the jQuery selection can be chained but methods that **retrieve** information from the DOM cannot be chaine. If one method in the chain does not work the entire line of code will not run.
+```
+$('li[id!="one"]').hide().delay(500).fadeIn(1400);
+```
+3. In modern browsers, the `.ready()` method is used to check that the page is ready for your code to work with. However, if you place your script at the end of the page before the closing `</body>` tag, the HTML will have loaded.
+
+### Getting and Setting using jQuery (p.314 - 315)
+1. Getting content
+  + `.html()` retrieves only the **HTML** inside the first element in the matched set, **along with any of its descendents**.
+    + to get the value of every element, use `.each()` method (details below)
+  + `.text()` returns the content from every element in the matched set, along with the text from any descendents.
+    + to get the content from `<input>` or `<textarea>` elements, use the `.val()` method (details below)
+
+2. Updating/Setting content
++ `.html()` gives every element in the matched set the same new content; may include HTML
++ `.text()` givecs every element in the matched set the same new text content; any markup would be shown as text.
++ `.replaceWith()` replaces every element in a matched set with new content; also returns the replaced elements.
++ `.remove()` removes all of the elements in the matched set.
+
+**Key considerations**:
++ `.html()` and `.text()` will replace the content of each element whereas `.replaceWith()` and `.remove()` replace **and remove** the elements they match (including their content and child elements).
++ `.html()` and `.replaceWith()` carry the same **security risk** as using `innerHTML` property.
+
+3. Inserting elements
+
+4. Getting and Setting attribute values
+
+5. Getting and Setting CSS properties
+
+### Events using jQuery
 
 
+### Effects using jQuery
+
+
+### Traversing and filtering using jQuery
+
+
+### Working with Forms using jQuery
+
+
+### Formatting using jQuery
 
 *****
 ## Article: [6 reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
