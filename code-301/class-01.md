@@ -14,7 +14,7 @@
 + State change - 3 ways (class name, pseudo-class, media queries) (ref: http://smacss.com/book/state)
   1. **Class name** - change happens with JavaScript. It occurs via some interaction, be it moving the mouse around, hitting something on the keyboard, or some other event.
   2. **pseudo-class** - change is done via any number of pseudo-classes. Pseudo-classes are still limited in that we can only style changes to elements that are descendants or siblings of the element in which the pseudo-class applies.
-  3. **Media queries** - 
+  3. **Media queries** - describe how things should be styled under defined criteria, such as different viewport sizes.
 
 ## [Responsive Web Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 
