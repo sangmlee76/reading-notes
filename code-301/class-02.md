@@ -73,6 +73,18 @@ $('li[id!="one"]').hide().delay(500).fadeIn(1400);
 + `.html()` and `.replaceWith()` carry the same **security risk** as using `innerHTML` property.
 
 3. Inserting elements
++ Two step process:
+  1. Create the new elements in a jQuery object
+  ``` 
+  var $newFragment = $('<li>'); OR
+  var $newFragment = $('<li class="new"> item </li>');
+  ```
+  2. Use a method to insert the content into the page
+    - **.before()**: inserts content before the selected element (e.g. before the element tag)
+    - **.after()**: inserts content after the selected element (e.g. after the element tag)
+    - **.prepend()**: inserts content inside the element after the opening tag
+    - **.append()**: inserts content inside the element before the closing tag
+
 
 4. Getting and Setting attribute values
 

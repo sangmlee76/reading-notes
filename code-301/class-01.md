@@ -1,5 +1,21 @@
 # Read 01 - Notes: SMACSS and Responsive Web Design
 
+## [Scalable and Modular Architecture for CSS - SMACSS](http://smacss.com/book/) 
++ [What is SMACSS?](http://smacss.com/)SMACSS (pronounced “smacks”) is more style guide than rigid framework. 
++ SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. 
++ It is an attempt to document a consistent approach to site development when using CSS.
++ Categorization of CSS - provides a structure and organization to CSS, contains 5 categories
+  1. **Base** - the defaults for all the elements (e.g. single element, pseudo-class, etc.). Base styles include setting heading sizes, default link styles, default font styles, and body backgrounds.
+  2. **Layout** - divide the page into sections. Layouts hold one or more modules together.
+  3. **Module** - the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on.
+  4. **State** - describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or layout looks on screens that are smaller or bigger.
+  5. **Theme** - similar to state rules in that they describe how modules or layouts might look. Most sites don’t require a layer of theming.
+
++ State change - 3 ways (class name, pseudo-class, media queries) (ref: http://smacss.com/book/state)
+  1. **Class name** - change happens with JavaScript. It occurs via some interaction, be it moving the mouse around, hitting something on the keyboard, or some other event.
+  2. **pseudo-class** - change is done via any number of pseudo-classes. Pseudo-classes are still limited in that we can only style changes to elements that are descendants or siblings of the element in which the pseudo-class applies.
+  3. **Media queries** - 
+
 ## [Responsive Web Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 
 + Responsive web design is the practice of building a website suitable to work on every device and every screen size, no matter how large or small, mobile or desktop. Responsive web design is focused around providing an intuitive and gratifying experience for everyone.
@@ -73,10 +89,7 @@
 ## Additional Resources
 + [Don't Overthink It Grids](https://css-tricks.com/dont-overthink-it-grids/)
 + [CSS Floats Explained By Riding An Escalator](https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/)
-+ [Scalable and Modular Architecture for CSS - SMACSS](http://smacss.com/book/) 
-  - [What is SMACSS?](http://smacss.com/)SMACSS (pronounced “smacks”) is more style guide than rigid framework. 
-  - SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. 
-  - It is an attempt to document a consistent approach to site development when using CSS.
+
 
 ***
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
