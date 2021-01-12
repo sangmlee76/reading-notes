@@ -56,13 +56,13 @@ $('li[id!="one"]').hide().delay(500).fadeIn(1400);
 3. In modern browsers, the `.ready()` method is used to check that the page is ready for your code to work with. However, if you place your script at the end of the page before the closing `</body>` tag, the HTML will have loaded.
 
 ### Getting and Setting using jQuery (p.314 - 315)
-1. Getting content
+1. Getting content (p.314)
   + `.html()` retrieves only the **HTML** inside the first element in the matched set, **along with any of its descendents**.
     + to get the value of every element, use `.each()` method (details below)
   + `.text()` returns the content from every element in the matched set, along with the text from any descendents.
     + to get the content from `<input>` or `<textarea>` elements, use the `.val()` method (details below)
 
-2. Updating/Setting content
+2. Updating/Setting content (p.316)
 + `.html()` gives every element in the matched set the same new content; may include HTML
 + `.text()` givecs every element in the matched set the same new text content; any markup would be shown as text.
 + `.replaceWith()` replaces every element in a matched set with new content; also returns the replaced elements.
@@ -72,7 +72,7 @@ $('li[id!="one"]').hide().delay(500).fadeIn(1400);
 + `.html()` and `.text()` will replace the content of each element whereas `.replaceWith()` and `.remove()` replace **and remove** the elements they match (including their content and child elements).
 + `.html()` and `.replaceWith()` carry the same **security risk** as using `innerHTML` property.
 
-3. Inserting elements
+3. Inserting elements (p.318)
 + Two step process:
   1. Create the new elements in a jQuery object
   ``` 
@@ -85,24 +85,55 @@ $('li[id!="one"]').hide().delay(500).fadeIn(1400);
     - **.prepend()**: inserts content inside the element after the opening tag
     - **.append()**: inserts content inside the element before the closing tag
 
-
 4. Getting and Setting attribute values
++ `.attr()`
+  - get: `$('li#one').attr('id');`
+  - set: `$('li#one').attr('id', 'hot');`
++ `.removeAttr()`
+  - - remove: `$('li#one').removeAttr('id');`
++ `addClass()`
++ `.removeClass()`
 
 5. Getting and Setting CSS properties
++ The `.css()` method lets you retrieve and set the values of CSS properties
+  - get: `var backgroundColor = $('li').css('background-color');`
+  - set: `$('li').css('background-color': '272727');` 
+  - set multiple:
+    ```
+    $('li').css({
+      'background-color': '272727',
+      'font-family': 'Courier'
+    });
+    ```
+6. jQuery loop functionality with `.each()` (p.324)
++ `.each()` method allows you to perform one or more statements on each of the items in the selection of elements that is returned by a selector.
++ can also use contextual this with `$(this)` 
 
-### Events using jQuery
+### Events using jQuery (p.326 - 331)
++ The `.on()` method is used to handle all events.
+```
+$('li').on('click', function () {
+  $(this).addClass('complete')'
+});
+```
++ Event objects in jQuery works similiar to JavaScript event objects
+```
+$('li').on('click', function(e) {
+  eventType = e.type;
+});
+```
 
+### Additional references, by topic heading:
++ Effects using jQuery (p.332 - 335)
++ Traversing and filtering using jQuery (p.336)
++ Finding items by order - using index numbers for jQuery (p.340)
++ Working with Forms using jQuery (p. 342 - 345)
++ Cutting and Copying Elements (p.346 - 347)
++ Changing box dimensions (p. 348 - 349)
++ Window and page dimensions (p.350 - 351)
++ Determining position of items on the page (p.352 - 353)
++ Extended jQuery reference topics (p. 354 - 361)
 
-### Effects using jQuery
-
-
-### Traversing and filtering using jQuery
-
-
-### Working with Forms using jQuery
-
-
-### Formatting using jQuery
 
 *****
 ## Article: [6 reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
