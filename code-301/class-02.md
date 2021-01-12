@@ -19,11 +19,13 @@ This selector finds all of the <li> elements with a class of 'hot'. You can also
 ```
 
 2. **jQuery methods**: jQuery methods represent tasks that you commonly need to perform with elements.
+
 ```
 $('li.hot').addClass('complete');
-
-The jQuery object (or the 'jQuery selection') here is modified by adding a new class attribute with the parameter 'complete'.
 ```
+The jQuery object (or the 'jQuery selection') here is modified by adding a new class attribute with the parameter 'complete'.
+
+
 3. Key benefits of jQuery over DOM Query
   - cross browser
   - element selection is simpler and more accurate
@@ -44,11 +46,13 @@ The jQuery object (or the 'jQuery selection') here is modified by adding a new c
 
 **Other Notes**: 
 1. In jQuery, **implicit iteration** allows you to replicate the same rule to several elements (e.g. a loop does not neet to be used).
+
 ```
 $('li.hot').addClass('favorite');
-
-This adds a new class to the existing elements with the class values 'hot'
 ```
+This adds a new class to the existing elements with the class values 'hot'
+
+
 2. **Chaining** is when more than one method is used in a single line of code to execute multiple methods. Most methods to **update** the jQuery selection can be chained but methods that **retrieve** information from the DOM cannot be chaine. If one method in the chain does not work the entire line of code will not run.
 ```
 $('li[id!="one"]').hide().delay(500).fadeIn(1400);
@@ -75,10 +79,12 @@ $('li[id!="one"]').hide().delay(500).fadeIn(1400);
 3. Inserting elements (p.318)
 + Two step process:
   1. Create the new elements in a jQuery object
-  ``` 
+  
+```
   var $newFragment = $('<li>'); OR
   var $newFragment = $('<li class="new"> item </li>');
-  ```
+```
+
   2. Use a method to insert the content into the page
     - **.before()**: inserts content before the selected element (e.g. before the element tag)
     - **.after()**: inserts content after the selected element (e.g. after the element tag)
