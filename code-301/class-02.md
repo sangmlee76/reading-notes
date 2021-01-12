@@ -126,11 +126,19 @@ $('li').on('click', function(e) {
 ### Additional references, by topic heading:
 + Effects using jQuery (p.332 - 335)
 + Traversing and filtering using jQuery (p.336)
+  - `.find()` and `.closest()` both require CSS-style seletor as an argument
+  - `.add()` adds new content to the items in the existing selection and places the resulting content in a new jQuery object
 + Finding items by order - using index numbers for jQuery (p.340)
 + Working with Forms using jQuery (p. 342 - 345)
 + Cutting and Copying Elements (p.346 - 347)
+  - `.remove()` removes matched element from DOM
+  - `.empty()` removes child nodes and descendants
+  - `.clone()` creates a copy of the matched set (including descendants and text nodes)
 + Changing box dimensions (p. 348 - 349)
 + Window and page dimensions (p.350 - 351)
+  - `.height()` and `width()` methods can be used to determine the dimension of **both** the browser window and the HTML documents.
+  - `.scrollLeft()` and `.scrollTop()` is used to get and set the position of the **scroll bars**
+  - `.offset()` and `.position()` methods are used to determine the position of elements on the page
 + Determining position of items on the page (p.352 - 353)
 + Extended jQuery reference topics (p. 354 - 361)
 
