@@ -63,14 +63,5 @@ To see the Papertrail web console:
 ***
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
 
-Readings: HEROKU
-Below you will find some reading material, code samples, and some additional resources that support today’s topic and the upcoming lecture.
 
-Review the Submission Instructions for guidance on completing and submitting this assignment.
-
-Reading
-+ Heroku: Getting Started with Node - https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
-  - Complete all of the steps through “View logs”
-
-Bookmark/Skim
 + 
