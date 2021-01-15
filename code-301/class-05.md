@@ -1,6 +1,6 @@
 # Read 05 - Notes: Heroku Deployment
 
-##
+## [Heroku: Getting Started with Node](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 + `heroku open` launches app
 + View logs by using the command `heroku logs --tail` 
   - provides information about your running app
