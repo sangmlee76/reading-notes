@@ -51,6 +51,7 @@ Figure 1. Node's execution model (source: https://www.sitepoint.com/an-introduct
 3. Build cross-platform desktop apps
 4. Create your own robots
 
+**Note: all the notes here have been either a direct or summarized content from the [source article](https://www.sitepoint.com/an-introduction-to-node-js/)**
 
 ***
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
