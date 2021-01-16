@@ -62,6 +62,3 @@ To see the Papertrail web console:
 
 ***
 [<<< Back to Main](https://sangmlee76.github.io/reading-notes/)
-
-
-+ 
