@@ -35,10 +35,21 @@
 + **Reduce** is to receive a function and a collection, and return a value created by combining the items.
 
 ****
-Other References:
-1. [Refactoring Javascript for Readability](https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec)
+## [Refactoring Javascript for Readability](https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec)
 
+1. Use some form of a **hash function**. A hash function is used to map a given key to a location in the hash table. See [Wikipedia](https://en.wikipedia.org/wiki/Hash_function) reference.
 
+2. Make sure a function does one thing; not only for the initial use case but for how it might look **in the future at scale**. Break up the logic to its simplest form a nd reducde the lines of code by using template literals, where applicable.
+
+Stragies for consideration:
+1. Return early from functions
+2. Cache variables so functions can be read like sentences
+3. Check and use web APIs before implementing your own functionality
+
+**Key takeaway**:
+```
+Get your code right the first time, in many businesses there isn't much value to justify refactoring.
+```
 
 
 ***
