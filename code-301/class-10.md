@@ -8,40 +8,46 @@
 
 + The call stack is primarily used for function invocation (call) and is synchronous.
 
-+ In asynchronous Javascript,the callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.
++ In asynchronous Javascript,the callback function is acted upon by the call stack during execution **after the call back function has been pushed to the stack** by the event loop.
 
 + The call stack manages function invocation.
 
 + A stack overflow occurs when there is a recursive without an exit point.
 
-+ Works as a LIFO data structure.
++ Works as a LIFO data structure principle.
+
++ When a function is invoked (called), the function, its parameters, and variables are **pushed into the call stack** to form a stack frame.
+
++ The **stack frame** is a **memory location** in the stack. The memory is cleared **when the function returns** as it is popped out of the stack.
+
++ **Stack overflow** occurs when there is a **recursive function** without an exit point.
 
 ## [JavaScript error messages](https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c)
 
 + Reference errors
-+ syntax errors
-+ syntax errors
-+ Rnage Errors
++ Syntax errors
++ Range Errors
 + Type Errors
-+ [JS error reference]( JavaScript error messages - https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c
-Additional Resources)
-
-Errors:
-- Syntax error8
-- Range errors;
-- Ranger, Cats;
++ [JS error reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
 
 Debugging:
-+ try...catch
-+ Console.log;
++ use developer console and `console.log`
++ use `breakpoints`
++ review the call stack (e.g. the path that your program has taken to reach the point of error or breaking point)
++ use `console.trace()` to see the stack at any given point
+
+Error handling:
++ try ... catch
+
++ JS errors occur at runtime (because it is not a compiled language); therefore tools are available:
+  - [quokka](https://quokkajs.com/)
+  - [eslint](http://eslint.org/)
+
 
 
 ### [The Call Stack defined on MDN](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
-+ Runtime errors
-+ TypeScript()
-+ quokka
- +eslint{} <--- JOT>
+
 
 
 ## Additional Resources
